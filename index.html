@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+
+    <div class="license">
+      <div class="choose">
+        <div class="choose__wrapper">
+          
+          <input id="choose_button1" name="perv" type="radio" value="13" checked>
+          <label for="choose_button1" class="choose__wrapper-title">LICENSE PLAN #1</label>
+          <div class="choose__wrapper-subtitle">$13 per license</div>
+        </div>
+        <div class="choose__wrapper">
+          <input id="choose_button2" name="perv" type="radio" value="22">
+          <label for="choose_button2" class="choose__wrapper-title">LICENSE PLAN #2</label>
+          <div class="choose__wrapper-subtitle">$22 per license</div>
+        </div>
+        <div class="choose__wrapper">
+          <input id="choose_button3" name="perv" type="radio" value="34">
+          <label for="choose_button3" class="choose__wrapper-title">LICENSE PLAN #3</label>
+          <div class="choose__wrapper-subtitle">$34 per license</div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="number">
+        <span>Number of licenses:</span>
+        <input id="number" type="number" value="5" min="1" max="100">
+      </div>
+      
+      <hr>
+
+      <div class="buy">
+        <div class="total">
+          <div class="total__text">total:</div>
+          <div class="total__dollar">$</div>
+          <div id="total" class="total__number"></div>
+          <div class="total__usd">US</div>
+        </div>
+        <button>buy now</button>
+        <div class="selected">
+          <div class="selected__text">Selected plan:</div>
+          <div id="name" class="selected__number"></div>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

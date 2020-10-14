@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('/src/fonts/BebasNeueBook.eot');
+    src: url('/src/fonts/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+    url('/src/fonts/BebasNeueBook.woff') format('woff'),
+    url('/src/fonts/BebasNeueBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('/src/fonts/BebasNeueRegular.eot');
+    src: url('/src/fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+    url('/src/fonts/BebasNeueRegular.woff') format('woff'),
+    url('/src/fonts/BebasNeueRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('/src/fonts/BebasNeueBold.eot');
+    src: url('/src/fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('/src/fonts/BebasNeueBold.woff') format('woff'),
+    url('/src/fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
