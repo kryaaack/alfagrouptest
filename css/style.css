@@ -61,7 +61,14 @@
     background-color: #33a845;
     color: #ffffff;
     border: none;
-    border-radius: 20px; }
+    border-radius: 20px;    
+    outline: none;
+    transition: 0.4s all; }
+    .buy button:hover {
+      font-size: 17px;
+      background-color: #21e23f; }
+    .buy button:active {
+      background-color: #33a845;  }
   .buy .selected {
     font-family: "Bebas Neue Regular";
     margin-top: 40px;
